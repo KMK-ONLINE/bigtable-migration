@@ -1,7 +1,6 @@
 package com.bbmtek.bigtablemigration
 
 import com.bbmtek.bigtablemigration.dao.SchemaMigrationsDAO
-import com.bbmtek.bigtablemigration.dao.impl.BigTableMigrationDAO
 import com.bbmtek.bigtablemigration.model.CreateColumnFamily
 import com.bbmtek.bigtablemigration.model.CreateTable
 import com.bbmtek.bigtablemigration.model.Migrations
