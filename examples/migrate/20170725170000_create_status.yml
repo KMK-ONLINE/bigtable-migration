@@ -1,0 +1,6 @@
+up:
+  - type: com.bbmtek.bigtablemigration.model.CreateTable
+    tableName: Status
+  - type: com.bbmtek.bigtablemigration.model.CreateColumnFamily
+    tableName: Status
+    columnFamilyName: Default

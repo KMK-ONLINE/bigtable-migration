@@ -1,0 +1,6 @@
+up:
+  - type: com.bbmtek.bigtablemigration.model.CreateTable
+    tableName: Feeds
+  - type: com.bbmtek.bigtablemigration.model.CreateColumnFamily
+    tableName: Feeds
+    columnFamilyName: Default
