@@ -27,7 +27,7 @@ class BigtableMigrationApplicationTest {
         val schemaMigrationsTableName = TableName.valueOf("SchemaMigrations")
         val feedsTableName = TableName.valueOf("Feeds")
         val statusTableName = TableName.valueOf("Status")
-        connection = BigtableConfiguration.connect("bbm-dev", "test-instance")
+        connection = BigtableConfiguration.connect("bigtable-project", "bigtable-instance")
         admin = connection.admin
 
         if(admin.tableExists(schemaMigrationsTableName)) {
