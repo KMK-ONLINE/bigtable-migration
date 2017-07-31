@@ -14,7 +14,10 @@ up:
 To run it
 
 ```bash
-java -jar bigtable-migration-1.0.0.3.jar --bigtablemigration.bigtable.project.id=your-project --bigtablemigration.bigtable.instance.id=your-instance --bigtablemigration.migration.dir=/your/migration/dir/migrate/
+java -jar bigtable-migration-1.0.0.3.jar \
+--bigtablemigration.bigtable.project.id=your-project \
+--bigtablemigration.bigtable.instance.id=your-instance \
+--bigtablemigration.migration.dir=/your/migration/dir/migrate/
 ```
 
 All inspiration is derived from Ruby on Rails' simple migration system: http://edgeguides.rubyonrails.org/active_record_migrations.html
